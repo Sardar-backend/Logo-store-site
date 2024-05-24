@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form {
+    width: 30%;
+    height: 70vh;
+    background-color: aliceblue;
+    border: 3px solid rebeccapurple;
+    border-radius: 15px;
+    background: url(./poster_631e7909-9f4a-4bfd-a7d8-64c70d64ff12.png) 0px/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form input {
+    width: 60%;
+    height: 10%;
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    font-family: "Vazir";
+    text-align: right;
+    padding: 0 0.7rem;
+}
+.form button {
+    width: 25%;
+    height: 10%;
+    border-radius: 10px;
+    font-family: "Vazir";
+    background-color: white;
+}
+.form button {
+    transition-property:background-color;
+    transition-duration: 0.3s;
+    transition-timing-function:ease-in-out;
+}
+.form button:hover {
+    background-color: blue;
+    color: white;
+}
+@media (max-width:426px) {
+    .form {
+        width: 70%;
+        height: 70vh;
+    }
+}
